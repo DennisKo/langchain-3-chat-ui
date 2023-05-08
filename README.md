@@ -1,4 +1,8 @@
-# Turn any text into emojis with Langchain and Nextjs
+# A ChatGPT UI. Stream OpenAI responses with Langchain and Nextjs
+
+A complete UI for an OpenAI powered Chatbot inspired by [ai.com](https://www.ai.com).
+
+It makes use of Nextjs streaming responses from the edge. Langchain is used to manage the chat history and calls to OpenAI's chat completion. It uses a basic `BufferMemory` as Memory.
 
 ## Getting Started
 
