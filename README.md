@@ -1,6 +1,6 @@
 # A ChatGPT UI. Stream OpenAI responses with Langchain and Nextjs
 
-A complete UI for an OpenAI powered Chatbot inspired by ([https://www.ai.com](https://chat.openai.com/)).
+A complete UI for an OpenAI powered Chatbot inspired by [https://www.ai.com](https://chat.openai.com/).
 
 It makes use of Nextjs streaming responses from the edge. Langchain is used to manage the chat history and calls to OpenAI's chat completion. It uses a basic `BufferMemory` as Memory.
 
