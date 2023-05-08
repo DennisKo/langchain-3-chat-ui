@@ -4,7 +4,18 @@ A complete UI for an OpenAI powered Chatbot inspired by [https://www.ai.com](htt
 
 It makes use of Nextjs streaming responses from the edge. Langchain is used to manage the chat history and calls to OpenAI's chat completion. It uses a basic `BufferMemory` as Memory.
 
-## Getting Started
+![alt text](https://user-images.githubusercontent.com/9072277/236784050-ddc47a89-f30b-46cc-a773-77798ec918c4.gif)
+
+This is part 3 of a Langchain+Nextjs series:
+
+Part 1: https://github.com/DennisKo/langchain-1-nextjs-stream
+
+Part 2: https://github.com/DennisKo/langchain-2-emojify
+
+Disclaimer: The code in this series is not meant for production or be taken as an example for best practices. It is meant to be be a starting point and conceptual example of how to implement those kind of technologies. There are bugs and no tests! You have been warned! ;)
+
+## Getting Started!
+
 
 First, run the development server:
 
