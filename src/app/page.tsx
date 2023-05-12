@@ -93,7 +93,7 @@ export default function Home() {
         dispatch({ type: "addMessage", payload: { prompt, controller } });
         promptInput.current.value = "";
 
-        const res = await fetch("http://localhost:3000/api", {
+        const res = await fetch("/api", {
           method: "POST",
           body: JSON.stringify({ messages: state.messages, prompt }),
           signal: signal,
